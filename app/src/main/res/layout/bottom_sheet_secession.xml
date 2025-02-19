@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/secession_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정말로 탈퇴하시겠습니까?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/secession_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="탈퇴 후 모든 데이터는 삭제되며 복구할 수 없습니다."
+        android:textSize="14sp"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/confirm_secession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원 탈퇴"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/red"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/cancel_secession"
+        android:backgroundTint="@color/cerulean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

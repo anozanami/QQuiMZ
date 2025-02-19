@@ -1,0 +1,125 @@
+{
+  "project_info": {
+    "project_number": "174389374788",
+    "firebase_url": "https://qquimz-default-rtdb.firebaseio.com",
+    "project_id": "qquimz",
+    "storage_bucket": "qquimz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174389374788:android:860693c596017f4ca93111",
+        "android_client_info": {
+          "package_name": "com.example.ohs_firestore_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtJCc56IA4bkXbhYZh6v7K2Itoczoz6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174389374788:android:dd5de8b9491331bea93111",
+        "android_client_info": {
+          "package_name": "com.example.qquimz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtJCc56IA4bkXbhYZh6v7K2Itoczoz6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174389374788:android:53e732b1380ab561a93111",
+        "android_client_info": {
+          "package_name": "com.example.qquimz_firebasetest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtJCc56IA4bkXbhYZh6v7K2Itoczoz6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174389374788:android:017ea82ce838eddba93111",
+        "android_client_info": {
+          "package_name": "com.example.quiz_template"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtJCc56IA4bkXbhYZh6v7K2Itoczoz6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174389374788:android:dc9e0c1eb5276cbea93111",
+        "android_client_info": {
+          "package_name": "com.foo.realqquimz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtJCc56IA4bkXbhYZh6v7K2Itoczoz6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174389374788:android:487cf0bd6700966aa93111",
+        "android_client_info": {
+          "package_name": "com.release.qquimz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGtJCc56IA4bkXbhYZh6v7K2Itoczoz6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "token": "pivotuser",
+    "point": 876,
+    "isFriend": ["user_002" , "user_015"],
+    "rankingIcon": "silver",
+    "achievement": "Active Participant"
+  },
+  {
+    "token": "user_001",
+    "point": 1430,
+    "isFriend": ["user_002", "user_003"],
+    "rankingIcon": "gold",
+    "achievement": "Top Performer"
+  },
+  {
+    "token": "user_002",
+    "point": 28000,
+    "isFriend": ["pivotuser", "user_004"],
+    "rankingIcon": "silver",
+    "achievement": "High Achiever"
+  },
+  {
+    "token": "user_003",
+    "point": 350000,
+    "isFriend": ["user_001", "user_005"],
+    "rankingIcon": "bronze",
+    "achievement": "Fast Learner"
+  },
+  {
+    "token": "user_004",
+    "point": 1250,
+    "isFriend": ["user_002"],
+    "rankingIcon": "bronze",
+    "achievement": "Great Effort"
+  },
+  {
+    "token": "user_005",
+    "point": 1200,
+    "isFriend": ["user_003", "user_006"],
+    "rankingIcon": "gold",
+    "achievement": "Rising Star"
+  },
+  {
+    "token": "user_006",
+    "point": 1100,
+    "isFriend": ["user_005"],
+    "rankingIcon": "silver",
+    "achievement": "Consistent Player"
+  },
+  {
+    "token": "user_007",
+    "point": 1050,
+    "isFriend": ["user_008"],
+    "rankingIcon": "bronze",
+    "achievement": "Persistent Learner"
+  },
+  {
+    "token": "user_008",
+    "point": 1000,
+    "isFriend": ["user_007"],
+    "rankingIcon": "silver",
+    "achievement": "Dedicated"
+  },
+  {
+    "token": "user_009",
+    "point": 950,
+    "isFriend": ["user_010"],
+    "rankingIcon": "bronze",
+    "achievement": "Improved Skills"
+  },
+  {
+    "token": "user_010",
+    "point": 900,
+    "isFriend": ["user_009"],
+    "rankingIcon": "gold",
+    "achievement": "Active Participant"
+  },
+  {
+    "token": "user_011",
+    "point": 850,
+    "isFriend": ["user_012"],
+    "rankingIcon": "bronze",
+    "achievement": "New Challenger"
+  },
+  {
+    "token": "user_012",
+    "point": 800,
+    "isFriend": ["user_011", "user_013"],
+    "rankingIcon": "silver",
+    "achievement": "Quick Thinker"
+  },
+  {
+    "token": "user_013",
+    "point": 750,
+    "isFriend": ["user_012"],
+    "rankingIcon": "gold",
+    "achievement": "Strategic Mind"
+  },
+  {
+    "token": "user_014",
+    "point": 700,
+    "isFriend": ["user_015"],
+    "rankingIcon": "bronze",
+    "achievement": "Improving"
+  },
+  {
+    "token": "user_015",
+    "point": 650,
+    "isFriend": ["user_014"],
+    "rankingIcon": "silver",
+    "achievement": "Eager Learner"
+  },
+  {
+    "token": "user_016",
+    "point": 600,
+    "isFriend": ["user_017"],
+    "rankingIcon": "gold",
+    "achievement": "Consistent Performer"
+  },
+  {
+    "token": "user_017",
+    "point": 550,
+    "isFriend": ["pivotuser", "user_016"],
+    "rankingIcon": "silver",
+    "achievement": "Reliable Friend"
+  },
+  {
+    "token": "user_018",
+    "point": 500,
+    "isFriend": ["user_019"],
+    "rankingIcon": "bronze",
+    "achievement": "Steady Progress"
+  },
+  {
+    "token": "user_019",
+    "point": 450,
+    "isFriend": ["user_018"],
+    "rankingIcon": "gold",
+    "achievement": "Creative Thinker"
+  },
+  {
+    "token": "user_020",
+    "point": 400,
+    "isFriend": ["user_021"],
+    "rankingIcon": "silver",
+    "achievement": "Motivated Learner"
+  },
+  {
+    "token": "user_021",
+    "point": 350,
+    "isFriend": ["user_020"],
+    "rankingIcon": "bronze",
+    "achievement": "Determined"
+  },
+  {
+    "token": "user_022",
+    "point": 300,
+    "isFriend": ["user_023"],
+    "rankingIcon": "silver",
+    "achievement": "Hardworking"
+  },
+  {
+    "token": "user_023",
+    "point": 250,
+    "isFriend": ["user_022"],
+    "rankingIcon": "gold",
+    "achievement": "Dedicated"
+  },
+  {
+    "token": "user_024",
+    "point": 200,
+    "isFriend": ["pivotuser"],
+    "rankingIcon": "bronze",
+    "achievement": "Helpful"
+  },
+  {
+    "token": "user_025",
+    "point": 150,
+    "isFriend": [],
+    "rankingIcon": "silver",
+    "achievement": "New Learner"
+  },
+  {
+    "token": "user_026",
+    "point": 100,
+    "isFriend": [],
+    "rankingIcon": "bronze",
+    "achievement": "Beginner"
+  }
+]

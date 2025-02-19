@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+    <!-- 상단 바 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:id="@+id/goMain"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_back_24"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/quizCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:text="사회"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text=" 상식"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <!-- 퀴즈 영역 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="56dp">
+        <!-- 난이도 표시 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="난이도"/>
+            <!-- 별 개수 표시 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:id="@+id/levelStar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/level_star_24"/>
+                <ImageView
+                    android:id="@+id/levelStar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/level_star_24"/>
+                <ImageView
+                    android:id="@+id/levelStar3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/level_star_24"/>
+                <ImageView
+                    android:id="@+id/levelStar4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/level_star_24"/>
+                <ImageView
+                    android:id="@+id/levelStar5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/level_star_24"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 문제 본문 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/quizQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textAlignment="center" />
+            <!-- (선택) 부가 설명 -->
+            <TextView
+                android:id="@+id/quizAddition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#797979"
+                android:textSize="20dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+        <!-- 타이머 표시 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alarm_24"/>
+            <TextView
+                android:id="@+id/timeLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:textSize="16dp"
+                android:text="00" />
+
+            <ProgressBar
+                android:id="@+id/timeLeftBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="310dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 선택지 영역 -->
+    <FrameLayout
+        android:id="@+id/selection_container"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

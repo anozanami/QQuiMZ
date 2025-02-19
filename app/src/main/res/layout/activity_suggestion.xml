@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuggestionActivity">
+    <!-- 상단 바 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:id="@+id/goMain"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_back_24"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/quizCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:text="퀴즈 제안하기"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="퀴즈 내용"/>
+    <EditText
+        android:id="@+id/sgTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="예 : 대한민국의 수도는 어디인가요?"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="퀴즈 정답 및 해설"/>
+    <EditText
+        android:id="@+id/sgContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="예 : 답은 서울이에요. 과거 백제, 조선 그리고 대한제국의
+수도이기도 했으며, 1949년 8월 15일 광복절에 ‘서울특별시’라는 명칭이 확정되었어요."/>
+    <Button
+        android:id="@+id/summit"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/cerulean"
+        android:layout_marginEnd="20dp"
+        android:textSize="22dp"
+        android:text="작성 완료"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#565656"
+        android:textSize="16dp"
+        android:text="작성 완료 후, 퀴즈가 QQuiMZ의 취지에 적합한지\n심사한 후 앱에서 풀 수 있는 퀴즈로 등록될 수 있습니다.\n(일주일 정도의 시간이 걸릴 수 있습니다)"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#565656"
+        android:textSize="16dp"
+        android:text="QQuiMZ는 MZ세대에게 세상의 다양한 상식을 제공하는\n것을 목표로 하여 서비스를 운영하고 있습니다.\n장난성 글이나 넌센스 퀴즈, 그리고 확인되지 않은 허위\n정보를 퀴즈로 제안하는 등의 행위는 자제하시기를 부탁\n드립니다."/>
+
+</LinearLayout>

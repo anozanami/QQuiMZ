@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40000000"
+    tools:context=".ResultFragment"
+    android:clickable="true">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="270dp"
+        android:background="@drawable/rounded_corner_full">
+        <ImageView
+            android:id="@+id/resultImg"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:src="@drawable/result_correct">
+        </ImageView>
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="정답입니다!"
+            android:textSize="28dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/goSolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="문제 해설 보기"
+            android:textColor="#A078DF"
+            android:textSize="15dp"
+            android:textStyle="bold">
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/goMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="메인 화면"/>
+            <Button
+                android:id="@+id/nextQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="다음 문제로"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

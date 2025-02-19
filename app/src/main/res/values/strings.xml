@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">QQuiMZ</string>
+    <string name="add_friens">Add Friend</string>
+    <string name="title1">물의 끓는점</string>
+    <string name="detail1">물은 몇 도에서 끓을까요?
+(1기압 기준) 가나다라마바사아자차카타파하 가나다라마바사아자차카타파하 가나다라마바사아자차카타파하 가나다라마바사아자차카타파하 가나다라마바사아자차카타파하</string>
+    <string name="category1">과학 상식</string>
+    <string name="correct1">오답</string>
+    <string name="heart1">100</string>
+    <string name="comment1">50</string>
+    <string name="question1">만약에 1기압 기준이 아닌 더 큰 기압이 기준이 되면 물의 끓는 점은 어떻게 바뀌나요?
+    </string>
+    <string name="user">maguri02</string>
+    <string name="qnatitle1">&amp;</string>
+    <string name="quizSuggest"><u>퀴즈 제안하기</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

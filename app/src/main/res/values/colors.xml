@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#ff0000</color>
+    <color name="colorPrimary">#3BB894</color>
+    <color name="colorPrimaryDark">#2e7d32</color>
+    <color name="colorAccent">#8BC34A</color>
+    <color name="spruceViewColor">#4bc495</color>
+    <color name="lighter_gray">#DDDDDD</color>
+    <color name="darker_gray">#939393</color>
+    <color name="recycler_background">#F8F8F9</color>
+    <color name="fake_paragraphs">#D9E1E2</color>
+    <color name="square_background">#DBE9F9</color>
+    <color name="celeste">#ADF5FF</color>
+    <color name="cerulean">#0075A2</color>
+    <color name="elastic_blue">#51E5FF</color>
+
+</resources>

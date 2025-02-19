@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Genre2Fragment">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:id="@+id/select1"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:elevation="20dp">
+            <ImageView
+                android:id="@+id/select1Img"
+                android:layout_width="150dp"
+                android:layout_height="85dp"
+                android:background="@drawable/rounded_corner_top"
+                tools:src="@tools:sample/avatars" />
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_corner_bottom">
+                <TextView
+                    android:id="@+id/select1value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="select 1"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/select2"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:elevation="20dp">
+            <ImageView
+                android:id="@+id/select2Img"
+                android:layout_width="150dp"
+                android:layout_height="85dp"
+                android:background="@drawable/rounded_corner_top"
+                tools:src="@tools:sample/avatars" />
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_corner_bottom">
+                <TextView
+                    android:id="@+id/select2value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="select 2"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/select3"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:elevation="20dp">
+            <ImageView
+                android:id="@+id/select3Img"
+                android:layout_width="150dp"
+                android:layout_height="85dp"
+                android:background="@drawable/rounded_corner_top"
+                tools:src="@tools:sample/avatars" />
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_corner_bottom">
+                <TextView
+                    android:id="@+id/select3value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="select 3"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/select4"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:elevation="20dp">
+            <ImageView
+                android:id="@+id/select4Img"
+                android:layout_width="150dp"
+                android:layout_height="85dp"
+                android:background="@drawable/rounded_corner_top"
+                tools:src="@tools:sample/avatars" />
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_corner_bottom">
+                <TextView
+                    android:id="@+id/select4value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text="select 4"/>
+            </LinearLayout>
+        </LinearLayout>
+    </GridLayout>
+
+</FrameLayout>
